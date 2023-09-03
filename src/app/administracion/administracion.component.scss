@@ -1,0 +1,60 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.h2-color{
+    color: #F31559;
+}
+
+.example-card {
+    width: 18rem;
+    border-radius: 1.2rem;
+    margin-right: 2rem;    
+}
+
+.icon{
+    margin: 0.2rem 0 0 0.4rem;
+    padding: 0;
+}
+
+.title{
+    font-weight: 500;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+.group{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-separator{            
+    border: 0.5px solid #E7E7E7;
+    margin: 0;
+}
+
+.content{
+    height: 4rem;
+
+    p{
+        margin: 1rem 0 1rem 0.4rem;
+    
+        .p-color{
+            color: #4D091E;
+        }
+    
+    }
+}
+
+.actions{
+    align-self: center;  
+}
+
+.btn{
+    border-radius: 0.4rem;
+    height: 1.9rem;
+    width: 8rem;  
+    margin: 0.8rem 0 0.2em 0;  
+}

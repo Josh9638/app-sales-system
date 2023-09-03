@@ -1,0 +1,170 @@
+.text-color{
+    color: #F31559;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    
+    .card{
+        width: 30vw;
+        height: 26vh;
+        background-color: #fff;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem 2rem 1rem 0;
+        box-shadow: 1px 2px 4px rgba($color: #000000, $alpha: 0.15);
+
+        .card-title{
+            font-size: 1rem;
+            color: rgba($color: #000000, $alpha: 0.66);
+            margin: 0.7rem;
+            font-weight: 500;            
+        }
+
+        .card-body{
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin: 1.5rem 0.7rem ;
+        }
+
+        .card-separator{            
+            border: 0.5px solid #E7E7E7;
+            margin: 0.7rem;            
+        }
+
+        .card-filter{
+            display: flex;
+            flex-direction: row;
+            margin: 0.7rem;
+            color: rgba($color: #000000, $alpha: 0.35);
+
+            .text{
+                font-size: 0.8rem;
+                font-weight: 500;                
+            }
+            
+            .icon{
+                margin-left: 0.5rem;
+                padding-top: 0.1rem;
+            }
+        }
+    }
+}
+
+
+.ventas-card-container{
+    display: flex;
+    flex-direction: row;
+
+    .card-listado-ventas{
+        width: 29vw;
+        height: 55vh;
+        background-color: #fff;
+        border-radius: 1rem;        
+        margin: 1rem 2rem 1rem 0;
+        box-shadow: 1px 2px 4px rgba($color: #000000, $alpha: 0.15);
+
+        .listado-venta-filter{
+            display: flex;
+            flex-direction: row;
+            margin-left: 1.7rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            color: rgba($color: #000000, $alpha: 0.66);
+
+            .icon{
+                margin-left: 0.5rem;
+                padding-top: 0.2rem;
+            }
+        }
+
+        .ventas-separator{
+            border: 0.5px solid #E7E7E7;            
+        }
+
+        .tabla-listado-venta{
+            margin-left: 1.7rem;
+
+            .table{
+                width: 100%;
+
+                .column{
+                    padding-top: 0.4rem;                    
+                }
+                
+                .icon{
+                    color: #F31559;
+                }
+                
+                .descripcion{
+                    color: rgba($color: #000000, $alpha: 0.66);
+                }
+
+                .precio{
+                    color: rgba($color: #000000, $alpha: 1);
+                    font-weight: 500;
+                }
+            }            
+        }
+        
+    }
+
+    .card-indicador-ventas{
+        width: 59vw;
+        height: 55vh;
+        background-color: #fff;
+        border-radius: 1rem;        
+        margin: 1rem 2rem 1rem 0;
+        box-shadow: 1px 2px 4px rgba($color: #000000, $alpha: 0.15);
+
+        .indicador-ventas-filter{
+            display: flex;
+            flex-direction: row;
+            margin-left: 1.7rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+            color: rgba($color: #000000, $alpha: 0.66);
+            justify-content: space-between;
+            
+            .text{
+                
+            }
+            .button-toggle-group{
+                border-radius: 0.6rem;
+                border: 1px solid #E7E7E7;
+                
+                .button-toggle{
+                    background-color: transparent;
+                    color:rgba($color: #000000, $alpha: 0.66);
+                    border: none;
+                    border-radius: 0%;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-bottom: 0.2rem;
+                    padding-top: 0.2rem;
+                    margin: 0;
+                    height: 100%;
+                }
+                .button-toggle:hover{
+                    background-color: #E7E7E7;
+                    color: #000000;
+                    font-weight: 600;
+                }
+
+                .button-toggle:focus{
+                    background-color: #E7E7E7;
+                    color: #000000;
+                    font-weight: 600;
+                }
+
+            }
+
+        }
+
+        .ventas-separator{
+            border: 0.5px solid #E7E7E7;            
+        }
+    }
+}
